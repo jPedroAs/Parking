@@ -5,5 +5,19 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore.design" Version="7.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="7.0.11" />
+  </ItemGroup>
+
+    
+  <ItemGroup>
+    <ProjectReference Include="..\Parking.Domain\Parking.Application.csproj" />
+    <ProjectReference Include="..\Parking.Domain\Parking.Infra.csproj" />
+  </ItemGroup>
 
 </Project>

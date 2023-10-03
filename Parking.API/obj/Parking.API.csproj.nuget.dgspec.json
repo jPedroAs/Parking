@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\Parking.API.csproj": {}
+    "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\Parking.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\Parking.API.csproj": {
+    "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\Parking.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\Parking.API.csproj",
+        "projectUniqueName": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\Parking.API.csproj",
         "projectName": "Parking.API",
-        "projectPath": "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\Parking.API.csproj",
+        "projectPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\Parking.API.csproj",
         "packagesPath": "C:\\Users\\inesa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\obj\\",
+        "outputPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,18 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "microsoft.entityframeworkcore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

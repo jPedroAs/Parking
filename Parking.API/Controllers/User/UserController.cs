@@ -10,9 +10,4 @@ public class UserController: ControllerBase
     {
         return Ok(op);
     }
-    
-    [HttpGet]
-    public async Task<IActionResult> Get (){
-        return Ok();
-    }
 }
