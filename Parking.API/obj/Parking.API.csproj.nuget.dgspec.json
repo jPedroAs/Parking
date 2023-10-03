@@ -45,6 +45,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "microsoft.aspnetcore.authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "microsoft.aspnetcore.authentication.jwtbearer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "microsoft.entityframeworkcore.design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
