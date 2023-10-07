@@ -1,4 +1,5 @@
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Security.Permissions;
 using System.Text;
@@ -15,6 +16,11 @@ public class TokenService
         var key = Encoding.ASCII.GetBytes(Configuartion.JwtKey);
         var tokenDescriptor = new SecurityTokenDescriptor
         {
+            Subject = new ClaimsIdentity(new Claim[]
+            {
+                new (ClaimTypes.Role, "user"),
+                new (ClaimTypes.Role,"admin"),
+            }),
             Expires = DateTime.UtcNow.AddHours(8),
             SigningCredentials = new SigningCredentials(
                 new SymmetricSecurityKey(key), 

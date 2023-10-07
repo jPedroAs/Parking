@@ -18,8 +18,8 @@
 
     
   <ItemGroup>
-    <ProjectReference Include="..\Parking.Domain\Parking.Application.csproj" />
-    <ProjectReference Include="..\Parking.Domain\Parking.Infra.csproj" />
+    <ProjectReference Include="..\Parking.Application\Parking.Application.csproj" />
+    <ProjectReference Include="..\Parking.Infra\Parking.Infra.csproj" />
   </ItemGroup>
 
 </Project>

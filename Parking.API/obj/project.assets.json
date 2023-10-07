@@ -3630,11 +3630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.APi\\Parking.API.csproj",
+      "projectUniqueName": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\Parking.API.csproj",
       "projectName": "Parking.API",
-      "projectPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.APi\\Parking.API.csproj",
+      "projectPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\Parking.API.csproj",
       "packagesPath": "C:\\Users\\inesa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.APi\\obj\\",
+      "outputPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

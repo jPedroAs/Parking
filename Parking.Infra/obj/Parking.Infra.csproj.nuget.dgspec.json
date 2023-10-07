@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\Parking.Infra.csproj": {}
+    "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\Parking.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\Parking.Domain.csproj": {
+    "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\Parking.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\Parking.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\Parking.Domain.csproj",
         "projectName": "Parking.Domain",
-        "projectPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\Parking.Domain.csproj",
+        "projectPath": "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\Parking.Domain.csproj",
         "packagesPath": "C:\\Users\\inesa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\obj\\",
+        "outputPath": "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\Parking.Infra.csproj": {
+    "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\Parking.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\Parking.Infra.csproj",
+        "projectUniqueName": "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\Parking.Infra.csproj",
         "projectName": "Parking.Infra",
-        "projectPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\Parking.Infra.csproj",
+        "projectPath": "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\Parking.Infra.csproj",
         "packagesPath": "C:\\Users\\inesa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\obj\\",
+        "outputPath": "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,8 +96,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\Parking.Domain.csproj": {
-                "projectPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\Parking.Domain.csproj"
+              "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\Parking.Domain.csproj": {
+                "projectPath": "c:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Domain\\Parking.Domain.csproj"
               }
             }
           }
