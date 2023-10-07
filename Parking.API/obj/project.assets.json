@@ -1444,6 +1444,53 @@
             "rid": "win"
           }
         }
+      },
+      "Parking.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Parking.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parking.Application.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Parking.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "microsoft.entityframeworkcore": "7.0.11"
+        },
+        "compile": {
+          "bin/placeholder/Parking.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parking.Domain.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Parking.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Parking.Domain": "1.0.0",
+          "microsoft.entityframeworkcore": "7.0.11",
+          "microsoft.entityframeworkcore.sqlserver": "7.0.11"
+        },
+        "compile": {
+          "bin/placeholder/Parking.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parking.Infra.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3613,10 +3660,27 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Parking.Application/1.0.0": {
+      "type": "project",
+      "path": "../Parking.Application/Parking.Application.csproj",
+      "msbuildProject": "../Parking.Application/Parking.Application.csproj"
+    },
+    "Parking.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Parking.Domain/Parking.Domain.csproj",
+      "msbuildProject": "../Parking.Domain/Parking.Domain.csproj"
+    },
+    "Parking.Infra/1.0.0": {
+      "type": "project",
+      "path": "../Parking.Infra/Parking.Infra.csproj",
+      "msbuildProject": "../Parking.Infra/Parking.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Parking.Application >= 1.0.0",
+      "Parking.Infra >= 1.0.0",
       "microsoft.aspnetcore.authentication >= 2.2.0",
       "microsoft.aspnetcore.authentication.jwtbearer >= 7.0.11",
       "microsoft.entityframeworkcore.design >= 7.0.11",
@@ -3655,7 +3719,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Application\\Parking.Application.csproj": {
+              "projectPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Application\\Parking.Application.csproj"
+            },
+            "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\Parking.Infra.csproj": {
+              "projectPath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Infra\\Parking.Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
