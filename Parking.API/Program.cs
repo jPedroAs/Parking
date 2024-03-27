@@ -1,8 +1,11 @@
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Parking.API.Autentication;
 using Parking.API.Services;
+using Parking.Infra.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +21,10 @@ builder.Services.AddAuthentication(x =>
         ValidateIssuer = false, 
         ValidateAudience = false
     };
+});
+
+builder.Services.AddDbContext<ParkingContext>((option) => {
+    option.UseSqlite("Data Source=Application.db;Cache=Shared");
 });
 
 builder.Services.AddControllers();

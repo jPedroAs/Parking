@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T2k5ssFuBybj9ksJAHN3mgQQmbhqDU/rZ5OoT9xlBUXSTXH7ga36eTjyqj5a8f12nKLYl4WVHLQ6nmlJDIV3Pg==",
+  "dgSpecHash": "3E5GFg2xPtP6pdjaPq4iQbuyyzXI17H92U+AS2cUajL0BGDs9F6EEtxtNS7xfq6W4HkJ1CytiRErHwdFE6M3QQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\inesa\\OneDrive\\Documentos\\Parking\\Parking.Application\\Parking.Application.csproj",
+  "projectFilePath": "C:\\Users\\inesa\\Parking\\Parking.Application\\Parking.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

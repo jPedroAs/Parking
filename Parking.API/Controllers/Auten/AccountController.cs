@@ -1,3 +1,4 @@
+using System.Security.Policy;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Parking.API.Services;
@@ -9,22 +10,26 @@ namespace Parking.API.Controllers;
 public class AccountController : ControllerBase
 {
     private readonly TokenService _tokenService; //Pablo isso aqui serve para gerar um dependência do obj
-    public AccountController(TokenService tokenService)
+    private readonly PasswordHash _hash;
+    public AccountController(TokenService tokenService, PasswordHash hash)
     {
         _tokenService = tokenService;
+        _hash = hash;
     }
 
     [HttpPost("v1/accounts/register")]
     public async Task<IActionResult> Register([FromBody]RegisterViewModel model)
     {
+        var pass = _hash.HashPassword(model.Password);
+        
         return Ok();
     }
 
     //[AllowAnonymous]
     [HttpPost("v1/accounts/login")]
-    public IActionResult Login()
+    public async Task<IActionResult> Login()
     {
-        var token = _tokenService.GenerationToken();
+        var token =  _tokenService.GenerationToken();
 
         return Ok(token);
     }
