@@ -36,3 +36,6 @@ _ReSharper*/
 
 # Visual Studio Code
 .vscode/
+
+.csproj
+.csproj.user
