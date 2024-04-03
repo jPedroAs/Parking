@@ -9,7 +9,7 @@ public class RegisterMapping : IEntityTypeConfiguration<Register>
 {
     public void Configure(EntityTypeBuilder<Register> builder)
     {
-        builder.ToTable("Registers", "bancoFicaAqui");
+        builder.ToTable("Registers", "Parking");
         builder.Property(p => p.Name).IsRequired().HasMaxLength(250);
         builder.Property(p => p.Email).IsRequired().HasMaxLength(250);
         builder.Property(p => p.Birthday).IsRequired().HasMaxLength(8);

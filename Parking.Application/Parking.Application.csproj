@@ -4,10 +4,11 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\Parking.Domain\Parking.Infra.csproj" />
+    <ProjectReference Include="..\Parking.Infra\Parking.Infra.csproj" />
   </ItemGroup>
 
 </Project>

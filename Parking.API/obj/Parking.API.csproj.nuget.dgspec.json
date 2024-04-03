@@ -108,7 +108,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\inesa\\Parking\\Parking.Infra\\Parking.Infra.csproj": {
+                "projectPath": "C:\\Users\\inesa\\Parking\\Parking.Infra\\Parking.Infra.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

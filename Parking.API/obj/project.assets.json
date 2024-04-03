@@ -1638,6 +1638,9 @@
       "Parking.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Parking.Infra": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Parking.Application.dll": {}
         },

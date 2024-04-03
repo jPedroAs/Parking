@@ -24,7 +24,7 @@ builder.Services.AddAuthentication(x =>
 });
 
 builder.Services.AddDbContext<ParkingContext>((option) => {
-    option.UseSqlite("Data Source=Application.db;Cache=Shared");
+    option.UseSqlServer("Server=localhost;Database=Parking;User ID=sa;Password=Nina123;Trusted_Connection=False; TrustServerCertificate=True;");
 });
 
 builder.Services.AddControllers();
