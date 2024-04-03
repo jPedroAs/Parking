@@ -1,0 +1,38 @@
+
+bin/
+obj/
+
+
+*.user
+*.suo
+*.sln.docstates
+
+
+*~
+*.swp
+
+# Pacotes NuGet
+*.nupkg
+*.paket.restore.log
+*.paket.packages
+packages/
+*.idea/
+.vscode/
+
+# Cache e logs
+*.log
+logs/
+*.cache
+
+# Arquivos de compilação de C#
+*.dll
+*.exe
+*.pdb
+
+# Ferramentas e extensões
+_ReSharper*/
+*.resharper.user
+*.resharper.sln.dotSettings
+
+# Visual Studio Code
+.vscode/
