@@ -4,3 +4,9 @@ C:\Users\inesa\OneDrive\Documentos\Parking\Parking.Domain\obj\Debug\net7.0\Parki
 C:\Users\inesa\OneDrive\Documentos\Parking\Parking.Domain\obj\Debug\net7.0\Parking.Domain.AssemblyInfo.cs
 C:\Users\inesa\OneDrive\Documentos\Parking\Parking.Domain\obj\Debug\net7.0\Parking.Domain.csproj.CoreCompileInputs.cache
 C:\Users\inesa\OneDrive\Documentos\Parking\Parking.Domain\obj\Debug\net7.0\Parking.Domain.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\inesa\Parking\Parking.Domain\obj\Debug\net7.0\Parking.Domain.csproj.AssemblyReference.cache
+C:\Users\inesa\Parking\Parking.Domain\obj\Debug\net7.0\Parking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inesa\Parking\Parking.Domain\obj\Debug\net7.0\Parking.Domain.AssemblyInfoInputs.cache
+C:\Users\inesa\Parking\Parking.Domain\obj\Debug\net7.0\Parking.Domain.AssemblyInfo.cs
+C:\Users\inesa\Parking\Parking.Domain\obj\Debug\net7.0\Parking.Domain.csproj.CoreCompileInputs.cache
+C:\Users\inesa\Parking\Parking.Domain\obj\Debug\net7.0\Parking.Domain.MvcApplicationPartsAssemblyInfo.cache

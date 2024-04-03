@@ -69,3 +69,6 @@ C:\Users\inesa\OneDrive\Documentos\Parking\Parking.API\bin\Debug\net7.0\runtimes
 C:\Users\inesa\OneDrive\Documentos\Parking\Parking.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\inesa\OneDrive\Documentos\Parking\Parking.API\obj\Debug\net7.0\Parking.API.csproj.CopyComplete
 C:\Users\inesa\OneDrive\Documentos\Parking\Parking.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\inesa\Parking\Parking.API\obj\Debug\net7.0\Parking.API.dll
+C:\Users\inesa\Parking\Parking.API\obj\Debug\net7.0\refint\Parking.API.dll
+C:\Users\inesa\Parking\Parking.API\obj\Debug\net7.0\Parking.API.pdb
