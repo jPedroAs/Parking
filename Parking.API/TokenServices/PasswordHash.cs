@@ -2,6 +2,8 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 
+namespace Parking.API.TokenServices;
+
 public class PasswordHash 
 {
     public string HashPassword(string password)

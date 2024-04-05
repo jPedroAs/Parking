@@ -1,4 +1,4 @@
-namespace Parking.API.Autentication;
+namespace Parking.API.TokenServices;
 
 public static class Configuartion
 {

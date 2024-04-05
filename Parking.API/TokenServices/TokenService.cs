@@ -4,9 +4,9 @@ using System.Security.Cryptography;
 using System.Security.Permissions;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
-using Parking.API.Autentication;
+using Parking.API.TokenServices;
 
-namespace Parking.API.Services;
+namespace Parking.API.TokenServices;
 
 public class TokenService
 {
