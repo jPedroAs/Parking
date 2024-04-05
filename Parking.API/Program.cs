@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Parking.API.TokenServices;
-using Parking.API.TokenServices;
 using Parking.Infra.Context;
 
 var builder = WebApplication.CreateBuilder(args);
