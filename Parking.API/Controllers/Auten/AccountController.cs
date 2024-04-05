@@ -2,7 +2,7 @@ using System.Net;
 using System.Security.Policy;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Parking.API.Services;
+using Parking.API.TokenServices;
 using Parking.Application.ViewModels;
 using Parking.Domain.Entity;
 using Parking.Infra.Context;
@@ -35,7 +35,7 @@ public class AccountController : ControllerBase
             Birthday = model.Birthday
         };
 
-        await 
+         
         
         return response.GetResponse("Registrado com sucesso.", HttpStatusCode.OK);
         } 

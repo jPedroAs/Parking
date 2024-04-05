@@ -16,5 +16,8 @@ public class GenericRepository<T> : IRepository<T> where T : class
     }
     public async Task UpdateAsync(T entity){}
      public async Task DeleteAsync(T entity){}
-     public IQueryable<T> Get(){return}
+     public IQueryable<T> Get()
+    {
+        return _context.Set<T>().AsQueryable();
+    }
 }
